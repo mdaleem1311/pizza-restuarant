@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {  
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg'); /* Replace with your image URL */  
+    background-size: cover;  
+    background-position: center;  
+    height: 80vh;  
+    padding:20px;  
+    color: white;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    text-align: center;
+}  
+.hero h1 {  
+    width: 45vw;
+    font-size: 3rem;  
+    font-weight: bold;
+    text-align: left;    
+}  
+.hero p { 
+    width: 45vw; 
+    font-size: 1.25rem;
+    padding: 20px;
+    text-align: left;  
+}  
+.hero .underline {  
+    width: 35vw;  
+    height: 5px;  
+    background-color: #ff4d4d; /* Change color as needed */ 
+    text-align: left; 
+      
+}  
+
+
+
+.section {  
+    width: 80vw;
+    padding: 30px 0;  
+}  
+.section-title {  
+    text-align: center;  
+    margin-bottom: 30px;  
+    font-size: 2.5rem;  
+    color: #e63946;  
+}  
+.divider {  
+    width: 200px;  
+    height: 4px;  
+    background-color: #e63946;  
+    margin: 0 auto 20px;  
+}  
+.content {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    flex-wrap: wrap;  
+}  
+.text-content {  
+    max-width: 600px; 
+    padding-top: 20px;
+    margin: 20px;  
+}  
+.text-content1 {  
+    
+    padding-top: 20px;
+    margin: 35px;  
+}  
+
+.image-content {  
+    max-width: 400px;  
+    margin: 20px;  
+}  
+
+
+.card {  
+    border: none;    
+}  
+.card-img-top{
+    height: 100px;
+    width: 100px;
+}
+.card-title {  
+    color: #FFD700; /* Gold color for the title */  
+}  
+
+
+
+
+
+
+
+
+
+
+
+.section-title2 {  
+    text-align: center;  
+    margin: 20px 0;  
+    color: #ff0000; /* Red color for the title */  
+}  
+.main-image {  
+    border: 5px solid #007bff; /* Blue border for the main image */  
+    border-radius: 10px;  
+}  
+.gallery img {  
+    width: 100%;  
+    height: auto;  
+    border-radius: 10px;  
+}  
+.gallery {  
+    margin-top: 20px;  
+}  
+.find-us {  
+    text-align: center;  
+    margin: 40px 0;  
+}  
+
+
+
+.section-title1 {  
+    text-align: center;  
+    margin: 20px 0;  
+}  
+.map-container {  
+    height: 340px;  
+    background-color: #333;  
+}  
